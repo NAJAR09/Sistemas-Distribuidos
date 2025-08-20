@@ -68,7 +68,7 @@ def main():
         
         popula_lista.start()
     
-    #espera todas as threads de população terminarem
+    #e!!spera todas as threads de população terminarem!!
     for thread in populadores:
         thread.join()
     
@@ -97,3 +97,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
